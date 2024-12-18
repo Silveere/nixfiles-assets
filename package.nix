@@ -9,5 +9,6 @@ stdenvNoCC.mkDerivation {
     ls
     mkdir -p $out/share/
     cp -a wallpapers $out/share/
+    cp -a icons $out/share/
   '';
 }
